@@ -35,7 +35,7 @@ body {
   list-style: none;
 }
 
-/* TOOLBAR */
+/*************** TOOLBAR ****************/
 .toolbar {
   display: flex;
   flex-direction: row;
@@ -75,7 +75,7 @@ a {
   gap: 5rem;
 }
 
-/* INTRODUCTION */
+/**************** INTRODUCTION *********************/
 .introduction {
   width: 100%;
   height: auto;
@@ -252,7 +252,7 @@ h2 {
   transition: 0.3s;
 }
 
-/* FEATURED SPEAKERS */
+/****************** FEATURED SPEAKERS *********************/
 .feature-speakers,
 footer {
   background-color: #d3d3d3;
@@ -294,13 +294,13 @@ footer {
 
 .speaker_title {
   font-style: italic;
-  color: #ec5242;
+  color: #e04507;
   font-weight: bold;
 }
 
 .description {
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 1.5;
   color: #272a31;
 }
 
@@ -547,7 +547,7 @@ footer {
   }
 
   .featured_speakers {
-    color: #fff;
+    color: #000;
     text-align: center;
     margin: 10px;
     font-size: 32px;
