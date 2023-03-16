@@ -64,6 +64,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 .links a {
@@ -560,17 +561,16 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 20px auto;
+    margin: 15px auto;
   }
 
   .partners:hover {
-    cursor: pointer;
+    cursor: move;
   }
 
   .partner:hover {
     width: 100%;
     height: auto;
-    border-bottom: 2px solid #ec5242;
   }
 
   .btn-speaker {
