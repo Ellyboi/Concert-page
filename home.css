@@ -234,14 +234,14 @@ h2 {
   align-items: center;
   width: 70%;
   height: 40px;
-  background-color: #ec5242;
+  background-color: #fff;
   margin-bottom: 30px;
 }
 
 #join span {
   font-size: 14px;
   font-weight: 700;
-  color: #d3d3d3;
+  color: #000;
   font-style: normal;
   padding: 4px 12px;
 }
@@ -256,6 +256,7 @@ h2 {
 .feature-speakers,
 footer {
   background-color: #d3d3d3;
+  padding-bottom: 65px;
 }
 
 #speakers {
@@ -356,7 +357,7 @@ footer {
   height: 50px;
   margin: 20px auto;
   color: #fff;
-  text-decoration: 5px solid #ec5242 underline;
+  text-decoration: 5px solid #fff underline;
 }
 
 #partner-1 {
