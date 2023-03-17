@@ -65,7 +65,7 @@
 
 > Here you can visit my live demo :
 
-- # [Live Demo](https://ellyboi.github.io/Concert-page/index.html)
+- # [Live Demo](https://ellyboi.github.io/Concert-page/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
