@@ -21,6 +21,10 @@
   padding: 5px;
 }
 
+.primary-header ul {
+  color: #fff;
+  }
+
 #subscribe {
   cursor: pointer;
   text-decoration: 1.5px solid #272a31 underline;
@@ -43,9 +47,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 70px;
+  justify-content: flex-start;
+  height: 50px;
+  padding: 0 3%;
+  gap: 50px;
 }
 
 .toolbar img {
@@ -53,14 +58,10 @@
   padding: 5px;
 }
 
-.toolbar ul {
+.toolbar nav {
   display: flex;
-  gap: 5rem;
-}
-
-a {
-  text-decoration: none;
-  color: #ec5242;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 .links {
@@ -68,8 +69,39 @@ a {
   gap: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 .links a {
   text-decoration: none;
+}
+
+#link {
+  display: flex;
+  gap: 5rem;
+}
+
+.toolbar {
+  background-color: #fff;
+}
+
+#aboutmenu a {
+  color:#e04507;
+}
+
+.linkss {
+  color: #ec5242;
+  border-color: #ec5242;
+  background-color: #fff;
+  padding: 10px;
+  font-weight: 900;
+  margin-left: -80px;
+  border-style: double;
+}
+
+.primary-header ul {
+color: #fff;
 }
 
 /*************************** INTRODUCTION *************************/
@@ -107,6 +139,21 @@ h2 {
   text-align: center;
 }
 
+.middle p {
+  width: 759px;
+  height: 63px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #838383;
+}
+
 #middle-logo {
   width: 300px;
   height: 100px;
@@ -118,7 +165,6 @@ h2 {
 }
 
 .middle h3 {
-  text-decoration: 2px solid #ec5242 underline;
   color: #272a31;
   cursor: pointer;
   margin: 10px auto;
@@ -146,36 +192,49 @@ h2 {
   margin: 10px auto;
 }
 
+.previous-concert {
+  width: 35%;
+  height: 28px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+  color: #2c2c2c;
+  margin-top: 110px;
+}
+
 .year1 {
-  width: 90%;
-  height: 170px;
-  background-image: url("./images/henri.jpg");
+  width: 432px;
+height: 236px;
+  background-image: url("./images/about_2011\ 1.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-blend-mode: multiply;
-  background-color: crimson;
+  margin-bottom: 110px;
 }
 
 .year2 {
-  width: 90%;
-  height: 170px;
-  background-image: url("./images/icsa.jpg");
+  width: 432px;
+height: 236px;
+  background-image: url("./images/about_2013\ 1.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  filter: grayscale();
   margin: 20px auto;
+  margin-bottom: 130px;
 }
 
 .year2 h2,
 .year1 h2 {
   margin: 20px 0 auto;
-  color: #fff;
 }
 
 .year2 p,
 .year1 p {
   margin: 20px 0 auto;
-  color: #fff;
   font-weight: 700;
   font-size: 24px;
   font-style: normal;
@@ -249,7 +308,7 @@ footer {
 }
 
 #footer-img {
-  width: 150px;
+  width: 40%;
   height: 100px;
 }
 
@@ -264,6 +323,10 @@ footer {
   .primary-header,
   .links {
     display: none;
+  }
+
+  .linkss {
+    margin-left: 20px;
   }
 
   footer {

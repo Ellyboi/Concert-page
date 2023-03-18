@@ -13,44 +13,47 @@
   <title>Summer Concert</title>
 </head>
 <body>
-  <main class="container">
-  <section class="introduction">
-    <div id="overlay">
-      <div id="close-container" onclick="menuClose()">
-        <a id="closer" onclick="menuClose()">
-          <img src="./images/Icon.png" alt="Close" onclick="menuClose()">
-        </a>
-      </div>
-      <div id="menucontainer">
-          <a href="./index.html" onclick="menuClose()">Home</a>
-          <a href="./about.html" onclick="menuClose()">About</a>
-          <a href="" onclick="menuClose()">Program</a>
-          <a href="" onclick="menuClose()">Sponsor</a>
-          <a href="" onclick="menuClose()">Join</a>
-          <a href="" onclick="menuClose()">News</a>
-      </div>
+<div id="overlay">
+    <div id="close-container" onclick="menuClose()">
+      <a id="closer" onclick="menuClose()">
+        <img src="./images/Icon.png" alt="Close" onclick="menuClose()">
+      </a>
     </div>
+    <div id="menucontainer">
+        <a href="./index.html" onclick="menuClose()">Home</a>
+        <a href="./about.html" onclick="menuClose()">About</a>
+        <a href="" onclick="menuClose()">Program</a>
+        <a href="" onclick="menuClose()">Sponsor</a>
+        <a href="" onclick="menuClose()">Join</a>
+        <a href="" onclick="menuClose()">News</a>
+    </div>
+  </div>
   <header class="primary-header">
     <ul id="social-icons">
       <li class="media-icons"><img src="./images/facebook.png" alt=""></li>
       <li class="media-icons"><img src="./images/twitter.png" alt=""></li>
-      <li class="media-icons"><img src="./images/linkedin.png" alt=""></li>
+      <li class="media-icons">English</li>
+      <li class="media-icons">My Page</li>
+      <li class="media-icons">Logout</li>
     </ul>
   </header>
-    <header class="toolbar">
-      <img src="./images/summer.png" alt="" class="summer_img" >
-      <div >
-        <img src='./images/mobile_menu.png' alt="mobile_menu" id="toolbar-img" onclick= menuOpen() >
-      </div>
-      <ul id="link">
-        <li class="links"><a href="index.html">Home</a></li>
-        <li class="links"><a href="#">About</a></li>
-        <li class="links"><a href="#">Program</a></li>
-        <li class="links"><a href="#">Sponsor</a></li>
-        <li class="links"><a href="#">Join</a></li>
-        <li class="links"><a href="#">News</a></li>
-      </ul>
-    </header>
+  <header class="toolbar">
+    <img src="./images/summer.png" alt="" class="summer_img" >
+    <div >
+      <img src='./images/mobile_menu.png' alt="mobile_menu" id="toolbar-img" onclick= menuOpen() >
+    </div>
+    <nav id="link">
+      <li class="links"><a href="./index.html">Home</a></li>
+      <li id="aboutmenu"  class="links"><a href="about.html">About</a></li>
+      <li class="links"><a href="#">Program</a></li>
+      <li class="links"><a href="#">Sponsor</a></li>
+      <li class="links"><a href="#">News</a></li>
+    </nav>
+    <button type="button" class="linkss">CC Campaign</button>
+  </header>
+
+  <main class="container">
+  <section class="introduction">
     <h1>Hello sharing world!</h1>
     <h2>CREATIVE SUMMER CONCERT 2023</h2>
     <P class="primary-text">The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years.
@@ -61,6 +64,7 @@
   </section>
   <section class="middle">
     <h3>Summer concert series 2023 Logo</h3>
+    <img src="./images/title_underline.png" alt="" class="underlineimg"/>
     <p>The logo of summer concert 2023 was decided through the logo competition from 8, June to 7, July.
       After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize.
       After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s concert as follows:
@@ -70,16 +74,13 @@
       </div>
   </section>
   <section class="bottom">
-    <strong>See previous summer concert series</strong>
+    <div class="previous-concert">See previous summer concert series</div>
+    <img src="./images/title_underline.png" alt="" class="underlineimg"/>
     <p>Take a look at the past two Summer concert which took place in Buenos Aires and in Warsaw</p>
     <div id="previous">
     <div class="year1">
-      <h2>2022</h2>
-      <p>Summer Concert Series at Australia</p>
     </div>
     <div class="year2">
-      <h2>2021</h2>
-      <p>Summer Concert Series at Korea</p>
     </div>
   </div>
   </section>
@@ -101,7 +102,7 @@
   </div>
   <footer>
     <img src="./images/summer.png" alt="" id="footer-img">
-    <p>Copyright &copy; 2023 by Vitoesi Elijah.</p>
+    <p>Copyright &copy; 2023 by Vitoesi Elijah</p>
   </footer>
 </main>
   <script src="featured-speakers.js"></script>

@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 function menuOpen() {
   document.getElementById('overlay').style.display = 'flex';
 }
@@ -6,10 +5,10 @@ function menuOpen() {
 function menuClose() {
   document.getElementById('overlay').style.display = 'none';
 }
+
 menuOpen();
 menuClose();
-/* eslint-disable camelcase */
-/* eslint-disable no-unused-vars */
+
 const onboardSpeakers = [
   {
     feature_img: './images/speaker_01.png',
@@ -65,7 +64,6 @@ const createElementAndAppendToParent = (newElement, className, id, parent, HTMLt
   return element;
 };
 
-// eslint-disable-next-line no-undef
 const speaker_heading = createElementAndAppendToParent('h2', 'featured_speakers', 'featured-speaker', feature_speakers, 'Featured Speakers');
 const featured_speakers = createElementAndAppendToParent('div', 'speakers', 'speakers', feature_speakers, '');
 

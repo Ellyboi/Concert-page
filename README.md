@@ -200,6 +200,6 @@ Here is the Original design idea by Cindy Shin in Behance 👉[Template](https:/
 
 ## 📝 License <a name="license"></a>
 
-This project is [licensed](./LICENCE) .
+This project is [licensed](https://github.com/Ellyboi/Concert-page/blob/feature-branch/LICENSE) .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
