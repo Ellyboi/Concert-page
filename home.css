@@ -15,7 +15,6 @@ body {
 .primary-header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   background-color: #3f3e3e;
   padding: 5px;
   width: 100%;
@@ -29,7 +28,7 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 20px;
-  margin-right: -50px;
+  margin-left: 65%;
 }
 
 .media-icons {
@@ -260,22 +259,17 @@ h2 {
   align-items: center;
   width: 70%;
   height: 40px;
-  background-color: #fff;
   margin-bottom: 30px;
+  text-decoration: 2px solid #fff underline;
 }
 
 #join span {
   font-size: 14px;
   font-weight: 700;
-  color: #000;
+  color: #fff;
   font-style: normal;
   padding: 4px 12px;
-}
-
-#join:hover {
-  cursor: pointer;
-  background-color: #f6a8a0;
-  transition: 0.3s;
+  border-bottom: #fff;
 }
 
 /****************** FEATURED SPEAKERS *********************/
@@ -284,6 +278,18 @@ footer {
   background-color: #fff;
   padding-bottom: 65px;
   margin-top: 40px;
+}
+
+.feature-speakers h2 {
+  margin-left: 10%;
+  margin-bottom: 5%;
+  color: #000;
+  background-color: #fff;
+  margin-top: -60px;
+}
+
+.underlineimg1 {
+  margin-left: 50%;
 }
 
 #speakers {
@@ -457,7 +463,7 @@ footer {
   }
 
   .linkss {
-    margin-left: 10px;
+    margin-right: 60px;
   }
 
   .toolbar img {
@@ -486,7 +492,11 @@ footer {
     margin-bottom: 5%;
     color: #000;
     background-color: #fff;
-    margin-top: 20px;
+    margin-top: -40px;
+  }
+
+  .underlineimg1 {
+    margin-left: 40%;
   }
 
   #speakers {
