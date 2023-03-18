@@ -45,6 +45,7 @@ body {
   height: 70px;
   padding: 0 3%;
   gap: 50px;
+  background-color: #fff;
 }
 
 .toolbar img {
@@ -76,12 +77,12 @@ a {
   gap: 5rem;
 }
 
-.toolbar {
-  background-color: #fff;
+a:last-child {
+  margin-right: 0;
 }
 
 #aboutmenu a {
-  color:#e04507;
+  color: #e04507;
 }
 
 .linkss {
@@ -95,7 +96,7 @@ a {
 }
 
 .primary-header ul {
-color: #fff;
+  color: #fff;
 }
 
 /**************** INTRODUCTION *********************/
@@ -211,7 +212,6 @@ h2 {
   row-gap: 10px;
 }
 
-
 .list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -323,7 +323,7 @@ footer {
 .speaker_title {
   width: 300px;
   height: 42px;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -331,13 +331,13 @@ footer {
   display: flex;
   align-items: center;
   letter-spacing: -0.09em;
-  color: #F78C89;
+  color: #f78c89;
 }
 
 .description {
   width: 305px;
   height: 123px;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -345,7 +345,7 @@ footer {
   display: flex;
   align-items: center;
   letter-spacing: -0.05em;
-  color: #000000;
+  color: #000;
 }
 
 .btn-speaker {
@@ -359,7 +359,7 @@ footer {
 
 .btn-speaker:hover {
   cursor: pointer;
-  background-color:#ec5242;
+  background-color: #ec5242;
   color: #fff;
   font-weight: bold;
 }
@@ -380,7 +380,6 @@ footer {
   align-items: center;
   background: #414246;
   margin: 0 auto;
-  
 }
 
 .partner {
@@ -403,8 +402,8 @@ footer {
 }
 
 .underlineimg {
- margin-top: -25px;
- margin-right: 1%;
+  margin-top: -25px;
+  margin-right: 1%;
 }
 
 #partner-1 {
@@ -447,7 +446,7 @@ footer {
 
 #footer-img {
   width: 50%;
-  height: 100px
+  height: 100px;
 }
 
 /* MEDIA QUERY */
@@ -458,8 +457,8 @@ footer {
   }
 
   .linkss {
-   margin-left: 10px;
-  } 
+    margin-left: 10px;
+  }
 
   .toolbar img {
     display: none;
@@ -602,7 +601,7 @@ footer {
     padding-left: 11rem;
     margin-top: 20px;
   }
-  
+
   #featured-speakers {
     width: 58%;
     margin: 10px auto;
@@ -613,7 +612,6 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
   }
 
   .featured_speakers {
@@ -667,10 +665,6 @@ footer {
   width: 100%;
   justify-content: flex-end;
   margin-top: 10%;
-}
-
-a:last-child {
-  margin-right: 0;
 }
 
 #menucontainer {

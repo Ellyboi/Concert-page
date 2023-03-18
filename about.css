@@ -23,7 +23,7 @@
 
 .primary-header ul {
   color: #fff;
-  }
+}
 
 #subscribe {
   cursor: pointer;
@@ -51,6 +51,7 @@
   height: 50px;
   padding: 0 3%;
   gap: 50px;
+  background-color: #fff;
 }
 
 .toolbar img {
@@ -82,12 +83,12 @@ a {
   gap: 5rem;
 }
 
-.toolbar {
-  background-color: #fff;
+a:last-child {
+  margin-right: 0;
 }
 
 #aboutmenu a {
-  color:#e04507;
+  color: #e04507;
 }
 
 .linkss {
@@ -98,10 +99,6 @@ a {
   font-weight: 900;
   margin-left: -80px;
   border-style: double;
-}
-
-.primary-header ul {
-color: #fff;
 }
 
 /*************************** INTRODUCTION *************************/
@@ -142,7 +139,7 @@ h2 {
 .middle p {
   width: 759px;
   height: 63px;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -195,7 +192,7 @@ h2 {
 .previous-concert {
   width: 35%;
   height: 28px;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -209,7 +206,7 @@ h2 {
 
 .year1 {
   width: 432px;
-height: 236px;
+  height: 236px;
   background-image: url("./images/about_2011\ 1.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -219,7 +216,7 @@ height: 236px;
 
 .year2 {
   width: 432px;
-height: 236px;
+  height: 236px;
   background-image: url("./images/about_2013\ 1.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -487,10 +484,6 @@ footer {
   width: 100%;
   justify-content: flex-end;
   margin-top: 10%;
-}
-
-a:last-child {
-  margin-right: 0;
 }
 
 #menucontainer {
